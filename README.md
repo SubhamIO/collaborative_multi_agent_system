@@ -81,19 +81,7 @@ LangGraph's `StateGraph` manages execution with conditional routing logic:
 
 ## 🧩 System Architecture
 
-```text
-            ┌────────────┐
-            │ Researcher │◄─────┐
-            └────┬───────┘      │
-                 ▼              │
-            ┌────────────┐      │
-            │  call_tool │      │
-            └────┬───────┘      │
-                 ▼              │
-            ┌────────────┐      │
-            │ Chart Gen  │──────┘
-            └────────────┘
-```
+<img src="https://github.com/SubhamIO/collaborative_multi_agent_system/blob/main/agent_workflow.png" alt="Alt text" title="Optional title">
 
 ---
 
